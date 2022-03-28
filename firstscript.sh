@@ -1,2 +1,2 @@
-#! bin/bash
-gcloud compute instances list.
+#!/bin/bash
+gcloud compute instances list
