@@ -7,3 +7,4 @@ sudo su -s /bin/bash jenkins
 pwd
 whoami
 sudo apt install nginx -y
+nginx -v
