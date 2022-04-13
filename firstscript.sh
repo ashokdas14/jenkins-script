@@ -6,6 +6,6 @@ whoami
 #sudo su -s /bin/bash jenkins
 pwd
 whoami
-sudo apt update
+apt update
 #sudo apt install nginx -y
 #nginx -v
