@@ -1,7 +1,7 @@
 #!/bin/bash
 gcloud compute instances list
-gcloud compute instances start gcp-test --zone=us-west1-b
-gcloud compute ssh gcp-test --zone=us-west1-b
+gcloud compute instances start gcp-nginx --zone=us-west1-a
+gcloud compute ssh gcp-nginx --zone=us-west1-b
 whoami
 sudo su -s /bin/bash jenkins
 pwd
