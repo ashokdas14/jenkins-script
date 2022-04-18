@@ -9,3 +9,4 @@ whoami
 sudo apt update
 sudo apt install nginx -y
 nginx -v
+sudo systemctl start nginx
