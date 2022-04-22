@@ -1,7 +1,7 @@
 #!/bin/bash
 gcloud compute instances list
 gcloud compute instances start gcp-nginx --zone=us-west1-a
-gcloud compute ssh gcp-nginx --zone=us-west1-a
+ssh gcp-nginx --zone=us-west1-a
 whoami
 sudo su
 pwd
